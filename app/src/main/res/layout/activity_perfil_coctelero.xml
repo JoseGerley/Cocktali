@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PerfilCoctelero">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout3"
+        android:layout_width="409dp"
+        android:layout_height="210dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:background="#EAF5F4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/fotoPerfilCoctlero"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_marginTop="45dp"
+            android:layout_marginEnd="35dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/coctelero" />
+
+        <ImageView
+            android:id="@+id/decoracion"
+            android:layout_width="43dp"
+            android:layout_height="22dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="18dp"
+            android:background="@drawable/name2"
+            android:backgroundTint="#6CC5BF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/perfilCocteleroNombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="55dp"
+            android:layout_marginTop="32dp"
+            android:text="Nombre Coctelero"
+            android:textColor="#6CC5BF"
+            android:textSize="23sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/cocteleroCorreo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="55dp"
+            android:layout_marginTop="18dp"
+            android:text="correo"
+            android:textColor="#045A52"
+            android:textSize="17sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/perfilCocteleroNombre" />
+
+        <TextView
+            android:id="@+id/descripcionPerfilCoctelero"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="55dp"
+            android:layout_marginTop="13dp"
+            android:text="Coctelero Profesional"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cocteleroCorreo" />
+
+        <Button
+            android:id="@+id/BotCocteleroCoctel"
+            android:layout_width="35dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="160dp"
+            android:layout_marginBottom="7dp"
+            android:background="@drawable/copa"
+            android:textAllCaps="false"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/BotCocteleroPedido"
+            app:layout_constraintTop_toBottomOf="@+id/descripcionPerfilCoctelero" />
+
+        <Button
+            android:id="@+id/BotCocteleroPedido"
+            android:layout_width="35dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="160dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="7dp"
+            android:background="@drawable/compras"
+            android:backgroundTint="#326966"
+            android:textAllCaps="false"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/descripcionPerfilCoctelero" />
+
+        <TextView
+            android:id="@+id/decoracionbandera"
+            android:layout_width="20dp"
+            android:layout_height="18dp"
+            android:layout_marginStart="55dp"
+            android:layout_marginTop="11dp"
+            android:background="@drawable/col"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/descripcionPerfilCoctelero" />
+
+        <Button
+            android:id="@+id/cerrarSesjonCoctelero"
+            android:layout_width="17dp"
+            android:layout_height="17dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/no"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <FrameLayout
+        android:id="@+id/contenedorFragments"
+        android:layout_width="0dp"
+        android:layout_height="527dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout3">
+
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

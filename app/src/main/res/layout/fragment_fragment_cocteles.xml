@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.FragmentCocteles">
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatcoctel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginRight="11dp"
+        android:clickable="true"
+        android:src="@drawable/copa"
+        app:backgroundTint="#6CC5BF" />
+
+    <ListView
+        android:id="@+id/listaFragmentCocteles"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </ListView>
+</FrameLayout>

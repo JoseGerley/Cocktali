@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "139937609507",
+    "firebase_url": "https://cocktali-30dad.firebaseio.com",
+    "project_id": "cocktali-30dad",
+    "storage_bucket": "cocktali-30dad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:139937609507:android:2bd2e196cbbe354e95be96",
+        "android_client_info": {
+          "package_name": "com.example.cocktali"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "139937609507-35lonoabee7cgr4ok450gjj99509tr0o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.cocktali",
+            "certificate_hash": "a365d6f1bfd1942ed25ec10aa29d098e683de6f0"
+          }
+        },
+        {
+          "client_id": "139937609507-jvggvm1s4hdfu0rmtj38gqqrre8omajg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJ_01_3iT6FIVAGvWXgv1lqqAbIOjJ1bY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "139937609507-jvggvm1s4hdfu0rmtj38gqqrre8omajg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
